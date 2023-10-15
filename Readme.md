@@ -1,18 +1,55 @@
-# Road Traffic Accidents Severity Prediction app
+---
 
-**Please use the below link to access the cloud-deployed application**
+# Road Traffic Accidents Severity Prediction App
 
-**Streamlit URL:** https://deploy-2p0z.onrender.com/
+![Project Preview](https://user-images.githubusercontent.com/104824947/212529165-84716c68-2f41-49b9-82d2-61fc165db2df.png)
 
+## Introduction
 
-🚦 **Project Description:**
+This project is focused on predicting road traffic accident severity using machine learning classification algorithms. The dataset used for this project was collected from the Addis Ababa Sub-city police departments and covers the years 2017-2020. It's important to note that sensitive information has been excluded during data encoding to ensure privacy.
 
-This data set is collected from Addis Ababa Sub-city police departments for master's research work. The data set has been prepared from manual records of road traffic accidents of the year 2017-20. All the sensitive information has been excluded during data encoding and finally it has 32 features and 12316 instances of the accident. Then it is preprocessed and for identification of major causes of the accident by analyzing it using different machine learning classification algorithms. 
+## Problem Statement
 
-🚩 **Problem Statement:**
+The primary goal of this project is to classify the accident severity, a multi-class variable, based on 31 other features. The evaluation metric for this classification task is the F1-score.
 
-The target feature is Accident_severity which is a multi-class variable. The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. Your metric for evaluation will be f1-score
+## Features
 
-🥽 **Application Preview:**
-![image](https://user-images.githubusercontent.com/104824947/212529165-84716c68-2f41-49b9-82d2-61fc165db2df.png)
+- 32 features
+- 12,316 instances of accidents
 
+## Technologies Used
+
+- Python
+- Machine Learning Algorithms
+- Streamlit for the web application
+
+## Usage
+
+To access the deployed application, visit the following link: [Road Traffic Accidents Severity Prediction App](https://deploy-2p0z.onrender.com/)
+
+## Getting Started
+
+If you want to run this project locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `pip install -r requirements.txt`.
+3. Run the application using `streamlit run app.py`.
+
+## Results
+
+Include information about the performance of your model and any insights gained from the analysis.
+
+## Contributors
+
+- Akash
+- Rohit
+
+## Acknowledgments
+
+Mention any data sources, libraries, or tutorials you used for this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+---
