@@ -40,8 +40,6 @@ If you want to run this project locally, follow these steps:
 Include information about the performance of your model and any insights gained from the analysis.
 
 ## Contributors
-
-- Akash
 - Rohit
 
 ## Acknowledgments
